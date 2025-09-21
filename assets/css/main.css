@@ -23,25 +23,45 @@ a {
 }
 /* END */
 
-body {
-   height: 100vh;
-   display: flex;
-   justify-content: center;
-   font-family: Roboto, sans-serif;
+/* Custom General Classes */
+.wp-100 {
+   width: 100vw;
 }
 
-body > .base-container {
+.w-70 {
    width: 70%;
 }
 
-nav > ul {
+.d-flex {
    display: flex;
-   justify-content: space-between;
-   align-items: baseline;
 }
 
-.nav-links {
+.jf-center {
+   justify-content: center;
+}
+
+.al-center {
+   align-items: center;
+}
+
+.flex-jf-center {
    display: flex;
+   justify-content: center;
+}
+/* END */
+
+body {
+   height: 100vh;
+   font-family: Roboto, sans-serif;
+}
+
+.hero-container {
+   background-color: rgb(0, 255, 136);
+}
+
+ul.d-flex {
+   justify-content: space-between;
+   align-items: baseline;
 }
 
 .nav-links li {
