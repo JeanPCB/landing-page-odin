@@ -20,3 +20,13 @@ a {
    color: blue;
 }
 /* END */
+
+body {
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+}
+
+.base-container {
+   width: 70%;
+}
