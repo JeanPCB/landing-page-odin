@@ -65,8 +65,8 @@ body {
 
 .hero-container {
    background-color: var(--primary-color);
-   padding-top: 16px;
-   padding-bottom: 32px;
+   padding-top: 1rem;
+   padding-bottom: 8rem;
 }
 
 .navbar {
@@ -96,7 +96,7 @@ body {
 
 .content-container {
    flex-direction: column;
-   gap: 30px;
+   gap: 5rem;
 }
 
 .hero-content-container {
