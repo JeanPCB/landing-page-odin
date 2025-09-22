@@ -61,10 +61,12 @@ body {
 
 .hero-container {
    background-color: #1f2937;
+   padding-top: 16px;
+   padding-bottom: 32px;
 }
 
 .navbar {
-   margin: 16px 0;
+   margin-bottom: 16px;
 }
 
 .navbar > ul {
@@ -85,4 +87,20 @@ body {
 .nav-links a {
    font-size: 18px;
    color: #e5e7eb;
+}
+
+.content-container {
+   flex-direction: column;
+   gap: 30px;
+}
+
+.hero-text-container {
+   color: #fff;
+   margin-top: 16px;
+}
+
+.hero-img-container > div {
+   width: 500px;
+   height: 250px;
+   background-color: #fff;
 }
