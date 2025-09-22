@@ -113,6 +113,22 @@ body {
    color: var(--tertiary-color);
 }
 
+.hero-text-container button {
+   background-color: #3882f6;
+   color: var(--tertiary-color);
+   font-size: 1rem;
+   font-weight: 900;
+   border: none;
+   border-radius: 8px;
+   padding: 8px;
+   margin-top: 10px;
+   width: 40%;
+}
+
+.hero-container button:hover {
+   cursor: pointer;
+}
+
 .hero-img-container {
    flex: 2;
    max-width: 700px;
