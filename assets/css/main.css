@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* CSS Reset */
+/* Colorscheme */
+:root {
+ --primary-color: #1f2937;
+ --secondary-color: #e5e7eb;
+ --tertiary-color: #f9faf8;
+}
+/* END */
 
+/* CSS Reset */
 html {
    box-sizing: border-box;
 }
@@ -22,11 +29,9 @@ a {
    text-decoration: none;
    color: blue;
 }
-
 /* END */
 
 /* Custom General Classes */
-
 .w-100 {
    width: 100%;
 }
@@ -51,7 +56,6 @@ a {
    display: flex;
    justify-content: center;
 }
-
 /* END */
 
 body {
@@ -60,7 +64,7 @@ body {
 }
 
 .hero-container {
-   background-color: #1f2937;
+   background-color: var(--primary-color);
    padding-top: 16px;
    padding-bottom: 32px;
 }
@@ -76,7 +80,7 @@ body {
 
 .nav-logo a {
    font-size: 24px;
-   color: #f9faf8;
+   color: var(--tertiary-color);
    font-weight: 900;
 }
 
@@ -86,7 +90,7 @@ body {
 
 .nav-links a {
    font-size: 18px;
-   color: #e5e7eb;
+   color: var(--secondary-color);
 }
 
 .content-container {
@@ -95,8 +99,12 @@ body {
 }
 
 .hero-text-container {
-   color: #fff;
+   color: var(--secondary-color);
    margin-top: 16px;
+}
+
+.hero-text-container > h1 {
+   color: var(--tertiary-color);
 }
 
 .hero-img-container > div {
