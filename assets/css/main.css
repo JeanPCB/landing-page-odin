@@ -66,11 +66,6 @@ body {
    text-align: center;
 }
 
-.secondary-text {
-   font-size: 18px;
-   color: var(--secondary-color);
-}
-
 /* Layout */
 .section-container {
    padding-top: 1rem;
@@ -114,6 +109,12 @@ body {
 
 .nav-links a {
    padding: 10px;
+}
+
+.nav-links a,
+.hero-text-container p {
+   font-size: 18px;
+   color: var(--secondary-color);
 }
 
 .hero-content-container {
