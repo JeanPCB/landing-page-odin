@@ -6,7 +6,6 @@
  --secondary-color: #e5e7eb;
  --tertiary-color: #f9faf8;
 }
-/* END */
 
 /* CSS Reset */
 html {
@@ -29,9 +28,14 @@ a {
    text-decoration: none;
    color: blue;
 }
-/* END */
 
-/* Custom General Classes */
+/* Global */
+body {
+   height: 100vh;
+   font-family: Roboto, sans-serif;
+}
+
+/* Utilities */
 .w-100 {
    width: 100%;
 }
@@ -56,17 +60,21 @@ a {
    display: flex;
    justify-content: center;
 }
-/* END */
 
-body {
-   height: 100vh;
-   font-family: Roboto, sans-serif;
-}
-
-.hero-container {
-   background-color: var(--primary-color);
+/* Layout */
+.section-container {
    padding-top: 1rem;
    padding-bottom: 10rem;
+}
+
+.content-container {
+   flex-direction: column;
+   gap: 5rem;
+}
+
+/* Header/Hero */
+#hero {
+   background-color: var(--primary-color);
 }
 
 .navbar {
@@ -104,11 +112,6 @@ body {
    color: var(--secondary-color);
 }
 
-.content-container {
-   flex-direction: column;
-   gap: 5rem;
-}
-
 .hero-content-container {
    gap: 3rem;
 }
@@ -137,7 +140,7 @@ body {
    width: 40%;
 }
 
-.hero-container button:hover {
+#hero button:hover {
    cursor: pointer;
 }
 
