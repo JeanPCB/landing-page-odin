@@ -31,7 +31,7 @@ a {
 
 /* Global */
 body {
-   height: 100vh;
+   min-height: 100vh;
    font-family: Roboto, sans-serif;
    flex-direction: column;
 }
@@ -82,7 +82,7 @@ body {
    gap: 5rem;
 }
 
-/* Header/Hero */
+/* Header Section */
 #hero {
    background-color: var(--primary-color);
 }
