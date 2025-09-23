@@ -167,10 +167,6 @@ body {
 }
 
 /* Stages Section */
-#stages > div {
-   gap: 4rem;
-}
-
 #stages h2 {
    font-size: 36px;
    font-weight: 900;
@@ -178,19 +174,16 @@ body {
 }
 
 .stages-container {
-   width: 80%;
-   gap: 3rem;
+   gap: 6rem;
 }
 
 .stages-article {
    max-width: 200px;
-}
-
-.stages-article img {
    width: 100%;
 }
 
 #stages p {
    font-size: 18px;
    color: #1f2937c4;
+   margin-top: 10px;
 }
