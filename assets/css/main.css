@@ -66,7 +66,7 @@ body {
    text-align: center;
 }
 
-/* Layout */
+/* General Containers */
 .section-container {
    padding-top: 4rem;
    padding-bottom: 12rem;
@@ -162,10 +162,27 @@ body {
 }
 
 /* Stages Section */
+#stages > div {
+   gap: 4rem;
+}
+
 #stages h2 {
    font-size: 36px;
    font-weight: 900;
    color: var(--primary-color);
+}
+
+.stages-container {
+   width: 80%;
+   gap: 3rem;
+}
+
+.stages-article {
+   max-width: 200px;
+}
+
+.stages-article img {
+   width: 100%;
 }
 
 #stages p {
