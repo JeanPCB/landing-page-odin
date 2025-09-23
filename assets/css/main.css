@@ -33,6 +33,7 @@ a {
 body {
    height: 100vh;
    font-family: Roboto, sans-serif;
+   flex-direction: column;
 }
 
 /* Utilities */
