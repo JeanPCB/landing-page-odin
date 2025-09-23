@@ -68,8 +68,8 @@ body {
 
 /* Layout */
 .section-container {
-   padding-top: 1rem;
-   padding-bottom: 10rem;
+   padding-top: 4rem;
+   padding-bottom: 12rem;
 }
 
 .content-container {
@@ -80,6 +80,7 @@ body {
 /* Header Section */
 #hero {
    background-color: var(--primary-color);
+   padding-top: 1rem;
 }
 
 .navbar {
