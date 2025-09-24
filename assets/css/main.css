@@ -36,6 +36,22 @@ body {
    font-family: Roboto, sans-serif;
 }
 
+a {
+   color: #70aeff;
+}
+
+p {
+   font-size: 18px;
+}
+
+footer {
+   background-color: var(--primary-color);
+   color: var(--tertiary-color);
+   text-align: center;
+   padding: 2.5rem;
+}
+
+
 /* Utilities */
 .w-100 {
    width: 100%;
