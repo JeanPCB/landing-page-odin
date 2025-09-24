@@ -214,3 +214,27 @@ body {
    font-size: 24px;
    font-weight: 700;
 }
+
+/* Join Section */
+#join .content-container {
+   background-color: #3882f6;
+   padding: 3.5rem 0;
+   border-radius: 10px;
+}
+
+#join .content-container > div {
+   justify-content: space-between;
+}
+
+#join .cta-btn {
+   margin-top: 0;
+   border: 2px solid var(--tertiary-color);
+}
+
+.join-text-container {
+   color: var(--tertiary-color);
+}
+
+.join-text-container p {
+   font-size: 18px;
+}
