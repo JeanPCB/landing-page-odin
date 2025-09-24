@@ -74,7 +74,7 @@ body {
 /* General Containers */
 .section-container {
    padding-top: 4rem;
-   padding-bottom: 12rem;
+   padding-bottom: 10rem;
 }
 
 .content-container {
@@ -175,6 +175,7 @@ body {
 
 .stages-container {
    gap: 6rem;
+   justify-content: space-between;
 }
 
 .stages-article {
@@ -186,4 +187,28 @@ body {
    font-size: 18px;
    color: #1f2937c4;
    margin-top: 10px;
+}
+
+/* Feedbacks Section */
+#feedbacks {
+   background-color: var(--secondary-color);
+}
+
+#feedbacks.section-container {
+   padding-top: 10rem;
+}
+
+#feedbacks .content-container > div {
+   align-self: center;
+}
+
+#feedbacks p {
+   font-size: 36px;
+   font-weight: 300;
+   color: var(--primary-color);
+}
+
+#feedbacks p:last-child {
+   text-align: right;
+   margin-top: 2rem;
 }
