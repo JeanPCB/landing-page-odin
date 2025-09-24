@@ -216,6 +216,10 @@ body {
 }
 
 /* Join Section */
+#join.section-container {
+   padding-top: 6rem;
+}
+
 #join .content-container {
    background-color: #3882f6;
    padding: 3.5rem 0;
@@ -237,4 +241,5 @@ body {
 
 .join-text-container p {
    font-size: 18px;
+   margin-top: 2px;
 }
