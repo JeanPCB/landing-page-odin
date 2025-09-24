@@ -138,7 +138,6 @@ footer {
 
 .nav-links a,
 .hero-text-container p {
-   font-size: 18px;
    color: var(--secondary-color);
 }
 
@@ -204,7 +203,6 @@ footer {
 }
 
 #stages p {
-   font-size: 18px;
    color: #1f2937c4;
    margin-top: 10px;
 }
@@ -256,6 +254,5 @@ footer {
 }
 
 .join-text-container p {
-   font-size: 18px;
    margin-top: 2px;
 }
