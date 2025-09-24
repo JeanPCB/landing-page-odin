@@ -211,4 +211,6 @@ body {
 #feedbacks p:last-child {
    text-align: right;
    margin-top: 2rem;
+   font-size: 24px;
+   font-weight: 700;
 }
