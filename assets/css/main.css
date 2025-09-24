@@ -61,6 +61,10 @@ body {
    align-items: center;
 }
 
+.als-center {
+   align-self: center;
+}
+
 .flex-jf-center {
    display: flex;
    justify-content: center;
@@ -195,10 +199,6 @@ body {
 
 #feedbacks.section-container {
    padding-top: 10rem;
-}
-
-#feedbacks .content-container > div {
-   align-self: center;
 }
 
 #feedbacks p {
