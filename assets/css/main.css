@@ -34,7 +34,6 @@ a {
 body {
    min-height: 100vh;
    font-family: Roboto, sans-serif;
-   flex-direction: column;
 }
 
 /* Utilities */
