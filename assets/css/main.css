@@ -173,13 +173,13 @@ body {
 }
 
 .stages-container {
-   gap: 6rem;
    justify-content: space-between;
 }
 
 .stages-article {
    max-width: 200px;
    width: 100%;
+   margin: 0 1.5rem;
 }
 
 #stages p {
