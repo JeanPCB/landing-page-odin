@@ -1,9 +1,9 @@
 # ⚔️ CSS Journey Page ⚔️
 An adventure to create a landing page using my new CSS knowledge  
-:link: Check it out here: <a href="https://jeanpcb.github.io/landing-page-odin/" target="_blank">Live Demo</a>
+Check it out here: 🔗 [Live Demo](https://jeanpcb.github.io/landing-page-odin/)
 
 ## About
-*This project is part of my web development journey with <a href="https://www.theodinproject.com" target="_blank">The Odin Project</a>*  
+*This project is part of my web development journey with [The Odin Project](https://www.theodinproject.com)*  
 
 A full landing page experience to put into practice my knowledge of **CSS spacing and styling skills**, especially **using Flexbox** and setting **HTML containers structure** creating website using real world sections based layout.
 
