@@ -44,4 +44,10 @@ A full landing page experience to put into practice my knowledge of **CSS spacin
 * Footer showing copyright containing link to website developer's GitHub (Me 😏).
 
 ## Motivation
-The purpose of this project was to put my newly acquired CSS and web development skills into practice by building a full landing page from scratch. I wanted to create a real-world, structured layout to understand how HTML containers and CSS properties interact, especially focusing on Flexbox for responsive design. This project allowed me to experiment with spacing, alignment, and styling techniques, while also reinforcing good development practices like using reusable CSS utilities, implementing a consistent color scheme, and maintaining version control with Git. Ultimately, it served as both a learning exercise and a way to create a tangible portfolio piece that demonstrates my growing abilities as a front-end developer.
+*The purpose of this project was to put my newly acquired CSS and web development skills into practice by building a full landing page from scratch.* 
+
+I wanted to create a real-world, structured layout to understand how HTML containers and CSS properties interact, especially focusing on Flexbox for responsive design. 
+
+This project allowed me to experiment with spacing, alignment, and styling techniques, while also reinforcing good development practices like using reusable CSS utilities, implementing a consistent color scheme, and maintaining version control with Git. 
+
+Ultimately, it served as both a learning exercise and a way to create a tangible portfolio piece that demonstrates my growing abilities as a front-end developer.
