@@ -1,6 +1,6 @@
 # ⚔️ CSS Journey Page ⚔️
 An adventure to create a landing page using my new CSS knowledge  
-Check it out here: 🔗 [Live Demo](jeanpcb.github.io/landing-page-odin/)
+Check it out here: 🔗 [Live Demo](https://jeanpcb.github.io/landing-page-odin/)
 
 ## About
 *This project is part of my web development journey with [The Odin Project](https://www.theodinproject.com)*  
