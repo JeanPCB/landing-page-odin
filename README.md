@@ -52,3 +52,9 @@ I wanted to create a real-world, structured layout to understand how HTML contai
 This project allowed me to experiment with spacing, alignment, and styling techniques, while also reinforcing good development practices like using reusable CSS utilities, implementing a consistent color scheme, and maintaining version control with Git. 
 
 Ultimately, it served as both a learning exercise and a way to create a tangible portfolio piece that demonstrates my growing abilities as a front-end developer.
+
+## Attributions
+*Icons used in this project are provided by [Flaticon](https://www.flaticon.com/):*
+
+Text, block, landing page icons created by [Freepik](https://www.flaticon.com/free-icons/)
+Thumbs-up icon created by [Dewi Sari]("https://www.flaticon.com/free-icons/thumbs-up")
